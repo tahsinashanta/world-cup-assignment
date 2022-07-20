@@ -204,5 +204,30 @@ body{
     color: rgb(150, 148, 148);
     font-size: 25px;
 }
+hr{
+    border: 1px solid rgb(209, 207, 206);
+    box-shadow: .5px .5px 2px rgb(238, 238, 238);
+    width: 90%;
+    margin-left: 5%;
+}
 
 /* <!-- footer section style ends here --> */
+
+
+/* Media responsive starts */
+
+/* Responsive for tablet */
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+    .view-sec{
+        visibility:visible;
+    }
+    .team-card-temp{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+   .aside{
+    display: flex;
+   }
+}
