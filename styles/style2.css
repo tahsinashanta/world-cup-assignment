@@ -51,7 +51,7 @@ body{
 
 .click-link{
     text-decoration: none;
-    background-color: rgba(0, 4, 255, 0.678);
+    background-color: rgb(255, 0, 255);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -74,60 +74,38 @@ body{
 
 /* ------------------------------------------- */
 
-/* <!-- transfer section style starts here --> */
+/* <!-- playteam cards style starts here --> */
 
 .container2{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.team-card-temp{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.team-info{
+    text-align: center;
+}
+.VS{
+    padding: 20px;
+    font-weight: bold;
 }
 
-.transfer{
-    box-shadow: 1px 1px 3px rgb(216, 214, 214);
-    border-radius: 5px;
+.team-card{
+    border: 1px solid rgb(212, 208, 208);
+    margin: 10px;
+    padding: 30px 20px;
+    border-radius: 10px;
 }
-.transfer > .transfer-img > img{
-    width: 250px;  
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.transfer-info{
-    padding: 10px;
-}
-.transfers{
-    max-width: 60%;
+.teams-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 15px;
 }
 
-.btn{
-    border: 1px solid black;
-    color: rgb(0, 0, 0);
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    background-color: white;
-    margin-bottom: 10px;
-}
-.transfer-h4{
-    margin-bottom: 10px;
-}
-.clock-comment{
-    display: flex;
-    color: rgb(153, 149, 149);
-}
-.clock{
-    margin-right: 40px;
-}
-.fa-clock, .fa-comment-dots{
-    margin-right: 10px;  
-    font-size: 13px;
-    
-}
-
-/* <!-- transfer section style ends here --> */
+/* <!-- playteam cards style ends here --> */
 
 /* ------------------------------------------- */
 
@@ -156,14 +134,10 @@ body{
     font-weight: 700;
 }
 .aside > .blog-red{
-    background-color: rgba(0, 4, 255, 0.678);
+    background-color: rgb(255, 0, 255);
     color: white;
 }
 /* <!-- aside section style ends here --> */
-
-
-
-/* <!-- footer section style starts here --> */
 
 /* view style starts */
 
@@ -187,6 +161,11 @@ body{
 }
 
 /* view style ends */
+
+
+
+
+/* <!-- footer section style starts here --> */
 
 .footer{
     background-color: rgb(29, 27, 27);
