@@ -82,7 +82,7 @@ body{
 }
 
 .transfer{
-    box-shadow: 1px 1px 3px rgb(216, 214, 214);
+    border: 1px solid rgb(238, 238, 238);
     border-radius: 5px;
 }
 .transfer > .transfer-img > img{
@@ -99,6 +99,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 15px;
+    
 }
 
 .btn{
