@@ -246,4 +246,33 @@ hr{
     flex-direction: row;
     width: 100%;
 }
-
+.container{
+    display: block;
+}
+.aside{
+    max-width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer-info{
+    display: flex;
+    justify-content: safe;
+    flex-direction: column;
+}
+}
+@media only screen and (max-width: 767px){
+    .transfers{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 15px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+.footer-info{
+    display: block;
+}
+}
