@@ -260,6 +260,9 @@ hr{
     justify-content: safe;
     flex-direction: column;
 }
+.view{
+    visibility: visible;
+}
 }
 @media only screen and (max-width: 767px){
     .transfers{
